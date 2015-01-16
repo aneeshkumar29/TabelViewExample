@@ -117,6 +117,9 @@
     [tableView beginUpdates];
     [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     [tableView endUpdates];
+    
+    
+    
 }
 
 
